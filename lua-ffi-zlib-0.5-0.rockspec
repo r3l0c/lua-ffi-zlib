@@ -1,7 +1,7 @@
 package = "lua-ffi-zlib"
 version = "0.5-0"
 source = {
-  url = "git://github.com/hamishforbes/lua-ffi-zlib",
+  url = "git://github.com/r3l0c/lua-ffi-zlib",
   tag = "v0.5"
 }
 description = {
