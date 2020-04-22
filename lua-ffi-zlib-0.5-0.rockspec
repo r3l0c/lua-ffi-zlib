@@ -2,7 +2,7 @@ package = "lua-ffi-zlib"
 version = "0.5-0"
 source = {
   url = "git://github.com/r3l0c/lua-ffi-zlib",
-  tag = "v0.5"
+  branch = 'master'
 }
 description = {
   summary = "A Lua module using LuaJIT's FFI feature to access zlib.",
