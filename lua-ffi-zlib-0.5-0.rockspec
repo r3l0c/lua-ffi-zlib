@@ -6,7 +6,7 @@ source = {
 }
 description = {
   summary = "A Lua module using LuaJIT's FFI feature to access zlib.",
-  homepage = "https://github.com/hamishforbes/lua-ffi-zlib",
+  homepage = "https://github.com/r3l0c/lua-ffi-zlib",
   maintainer = "Hamish Forbes"
 }
 dependencies = {
