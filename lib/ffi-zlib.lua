@@ -300,7 +300,7 @@ function _M.inflateGzip(input, output, bufsize, windowBits, dict)
     local dictionary = nil
     if (dict ~= nil) then
         local dict_chars = ffi_new('char[?]', #dict)
-        ffi_copy(dict_chars, dict)
+        ffi_copy(dict_chars, dict, #dict)
         dictionary = {
             dictionary = dict_chars,
             size = #dict
